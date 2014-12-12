@@ -49,4 +49,4 @@ Desire to build a functional [Noun](http://thenounproject.com) while experimenti
 
 ## Music
 
-Courtesy of [Echonest Labs](http://static.echonest.com/labs/) and [K Records](http://krecs.com).
+Courtesy of [Echo Nest Labs](http://static.echonest.com/labs/) and [K Records](http://krecs.com).

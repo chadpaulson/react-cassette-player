@@ -47,7 +47,7 @@ body {
   text-align: center;
   font-size: 1.2em;
 }
-.info p {
+.info p, .info img {
   margin-bottom:33px;
 }
 .nwa_express_yourself {

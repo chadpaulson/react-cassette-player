@@ -1,7 +1,7 @@
 'use strict'
 
 var React = require('react')
-var Cassette = require('./cassette')
+var Cassette = require('react-cassette-player')
 
 
 React.render(

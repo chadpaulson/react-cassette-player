@@ -2,6 +2,28 @@
 'use strict'
 
 var React = require('react')
+var Cassette = require('react-cassette-player')
+
+
+React.render(
+  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/1391651203164/04%20Limelight.mp3", cassetteColor: "#fff", labelColor: "#fff", tapeColor: "#333", controlsColor: "#999", containerClass: "rush_limelight"}),
+  document.getElementById('rush'))
+
+React.render(
+  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/1397691367357/10%20The%20View.mp3", cassetteColor: "#7A8867", labelColor: "#D0CAAA", tapeColor: "#777", controlsColor: "#ADBA8C", containerClass: "mm_view"}),
+  document.getElementById('modest_mouse'))
+
+React.render(
+  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/08%20Express%20Yourself.mp3", cassetteColor: "#333", labelColor: "#000", tapeColor: "#CA0226", controlsColor: "#CA0226", containerClass: "nwa_express_yourself", scaleMethod: "slice"}),
+  document.getElementById('nwa'))
+
+React.render(
+  React.createElement(Cassette, {file: "http://www.krecs.com/media/samples/sam_klp029_11_pleasepleaseplease.mp3", cassetteColor: "#FF662C", labelColor: "#999", tapeColor: "#61CBC7", controlsColor: "#fff", containerClass: "halo_benders_please"}),
+  document.getElementById('halo_benders'))
+},{"react":148,"react-cassette-player":2}],2:[function(require,module,exports){
+'use strict'
+
+var React = require('react')
 
 
 var Cassette = React.createClass({displayName: 'Cassette',
@@ -150,29 +172,7 @@ var Cassette = React.createClass({displayName: 'Cassette',
 
 module.exports = Cassette
 
-},{"react":148}],2:[function(require,module,exports){
-'use strict'
-
-var React = require('react')
-var Cassette = require('./cassette')
-
-
-React.render(
-  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/1391651203164/04%20Limelight.mp3", cassetteColor: "#fff", labelColor: "#fff", tapeColor: "#333", controlsColor: "#999", containerClass: "rush_limelight"}),
-  document.getElementById('rush'))
-
-React.render(
-  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/1397691367357/10%20The%20View.mp3", cassetteColor: "#7A8867", labelColor: "#D0CAAA", tapeColor: "#777", controlsColor: "#ADBA8C", containerClass: "mm_view"}),
-  document.getElementById('modest_mouse'))
-
-React.render(
-  React.createElement(Cassette, {file: "http://static.echonest.com/audio2/08%20Express%20Yourself.mp3", cassetteColor: "#333", labelColor: "#000", tapeColor: "#CA0226", controlsColor: "#CA0226", containerClass: "nwa_express_yourself", scaleMethod: "slice"}),
-  document.getElementById('nwa'))
-
-React.render(
-  React.createElement(Cassette, {file: "http://www.krecs.com/media/samples/sam_klp029_11_pleasepleaseplease.mp3", cassetteColor: "#FF662C", labelColor: "#999", tapeColor: "#61CBC7", controlsColor: "#fff", containerClass: "halo_benders_please"}),
-  document.getElementById('halo_benders'))
-},{"./cassette":1,"react":148}],3:[function(require,module,exports){
+},{"react":148}],3:[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18465,4 +18465,4 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 
-},{}]},{},[2]);
+},{}]},{},[1]);

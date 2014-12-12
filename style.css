@@ -15,7 +15,7 @@ body {
 }
 .demo {
   width:100% !important;
-  height:100% !important;
+  height:90% !important;
 }
 .song, .artist {
   position: relative;

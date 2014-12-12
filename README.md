@@ -46,4 +46,4 @@ SVG icons used by this project are licensed as [Creative Commons (CC BY 3.0)](ht
 
 ## Motivation
 
-I wanted to build a functional [Noun](http://thenounproject.com) while experimenting with React's SVG support.
+Desire to build a functional [Noun](http://thenounproject.com) while experimenting with React SVG support.

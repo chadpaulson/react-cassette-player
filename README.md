@@ -22,6 +22,16 @@ React.render(<Cassette file="http://www.krecs.com/media/samples/sam_klp002_07_cr
 
 ## Options
 
+| option         |                                                                                                                                                  |   |   |   |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
+| file           | Required: URI of HTML5 audio resource you wish to play.                                                                                          |   |   |   |
+| cassetteColor  | Optional: RGB or HEX string.                                                                                                                     |   |   |   |
+| labelColor     | Optional: RGB or HEX string.                                                                                                                     |   |   |   |
+| tapeColor      | Optional: RGB or HEX string.                                                                                                                     |   |   |   |
+| controlsColor  | Optional: RGB or HEX string.                                                                                                                     |   |   |   |
+| containerClass | Optional: 'react-cassette-player' (default).                                                                                                     |   |   |   |
+| scaleMethod    | Optional: 'meet' (default) or 'slice'. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio) |   |   |   |
+
 All of the possible cassette player options can be found in the [demo implementation](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/demo.jsx).
 
 ## Attribution
@@ -33,7 +43,6 @@ SVG icons used by this project are licensed as [Creative Commons (CC BY 3.0)](ht
 
 
 [Feedback and contributions are welcome!](https://github.com/chadpaulson/react-cassette-player/issues/new)
-
 
 ## Motivation
 

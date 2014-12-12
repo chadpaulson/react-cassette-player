@@ -1,0 +1,79 @@
+a {
+  color:#61CBC7;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  color:#999;
+}
+body {
+  background-color: #999;
+  margin:0px;
+  padding:0px;
+  color:#EBEFF0;
+  font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;    
+}
+.demo {
+  width:100% !important;
+  height:100% !important;
+}
+.song, .artist {
+  position: relative;
+  font-size:2em;
+  padding-left: 10%;
+}
+.song {
+  bottom: 125px;
+  font-weight: bold;
+}
+.artist {
+  bottom: 105px;
+}
+.rush_limelight {
+  background-color: #999;
+}
+.mm_view {
+  background-color: #ADBA8C;
+}
+.mm .song, .mm .artist {
+  color: #7A8867;
+}
+.info {
+  padding-top:10%;
+  padding-bottom: 10%;
+  background-color: #000;
+  width:100%;
+  margin:0px auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+.info p {
+  margin-bottom:33px;
+}
+.nwa_express_yourself {
+  background-color: #EBEFF0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width:500px;
+  height:333px;
+  margin:0px auto;
+}
+.track_info {
+  width:500px;
+  margin:6% auto;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;
+  font-size:2.6em;
+  color:#EBEFF0;
+}
+.nwa {
+  padding-top:15%;
+  background-color: #111;
+}
+.hb {
+  background-color: #EBEFF0;
+}
+.hb .song, .hb .artist {
+  color: #61CBC7;
+}

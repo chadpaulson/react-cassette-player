@@ -126,7 +126,7 @@ var Cassette = React.createClass({
     }
     return (
       <div className={this.props.containerClass}>
-        <audio ref="player" preload="auto" mediaGroup="react-cassette-player">
+        <audio ref="player" preload="auto">
           <source src={this.props.file} type="audio/mpeg" />
         </audio>
         <svg onClick={this.clickTape} x="0px" y="0px" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio={scaleMethod}>

@@ -17,33 +17,36 @@ var React = require('react')
 var Cassette = require('react-cassette-player')
 
 
-React.render(<Cassette file="http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp3" />, document.body)
+var audioURI = "http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp3"
+React.render(<Cassette file={audioURI} />, document.body)
 ```
 
 ## Options
 
-| option         |                                                                                                                                                  |
+|          |                                                                                                                                                  |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | file           | Required: URI of HTML5 audio resource you wish to play.                                                                                          |
 | cassetteColor  | Optional: RGB or HEX string.                                                                                                                     |
 | labelColor     | Optional: RGB or HEX string.                                                                                                                     |
 | tapeColor      | Optional: RGB or HEX string.                                                                                                                     |
 | controlsColor  | Optional: RGB or HEX string.                                                                                                                     |
-| containerClass | Optional: 'react-cassette-player' (default).                                                                                                     |
-| scaleMethod    | Optional: 'meet' (default) or 'slice'. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio) |
+| containerClass | Optional: `react-cassette-player` (default) string.                                                                                                     |
+| scaleMethod    | Optional: `meet` (default) or `slice` string. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio). |
 
-All of the possible cassette player options can be found in the [demo implementation](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/src/demo.jsx).
+All options can be found in the [demo implementation](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/src/demo.jsx). Don't hesitate to [ask questions](https://github.com/chadpaulson/react-cassette-player/issues/new).
 
 ## Attribution
 
-SVG icons used by this project are licensed as [Creative Commons (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/) and must be purchased by the [Noun Project](http://thenounproject.com). Otherwise, you must add the following attributions to your project.
+SVG icons used by react-cassette-player are licensed [Creative Commons (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/) and must be purchased by the [Noun Project](http://thenounproject.com). Otherwise, you must add the following attribution to your project.
 
-  * Play icon designed by Björn Andersson from the Noun Project.
-  * Cassette icon designed by Daniel Llamas Soto from the Noun Project.
+  > [Play](http://thenounproject.com/term/play/15109/) icon designed by [Björn Andersson](http://thenounproject.com/bjorna1/) from the Noun Project.
+  > [Cassette](http://thenounproject.com/term/cassette/37972/) icon designed by [Daniel Llamas Soto](http://thenounproject.com/yamasoto/) from the Noun Project.
 
-
-[Feedback and contributions are welcome!](https://github.com/chadpaulson/react-cassette-player/issues/new)
 
 ## Motivation
 
-Desire to build a functional [Noun](http://thenounproject.com) while experimenting with React SVG support.
+Desire to build a functional [Noun](http://thenounproject.com) while experimenting with React SVG support. [Feedback and contributions](https://github.com/chadpaulson/react-cassette-player/issues/new) are welcome.
+
+## Music
+
+Courtesy of [Echonest Labs](http://static.echonest.com/labs/) and [K Records](http://krecs.com).

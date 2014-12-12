@@ -13,6 +13,12 @@ body {
   color:#EBEFF0;
   font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;    
 }
+h1 {
+  width:60%;
+  text-align: center;
+  margin:0px auto;
+  padding-bottom:55px;
+}
 .demo {
   width:100% !important;
   height:90% !important;
@@ -49,6 +55,13 @@ body {
 }
 .info p, .info img {
   margin-bottom:33px;
+}
+.head p {
+  margin-bottom:19px !important;
+}
+.head img {
+  margin-top: 45px !important;
+  margin-bottom:40px !important;
 }
 .nwa_express_yourself {
   background-color: #EBEFF0;

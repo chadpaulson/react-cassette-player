@@ -32,7 +32,7 @@ React.render(<Cassette file="http://www.krecs.com/media/samples/sam_klp002_07_cr
 | containerClass | Optional: 'react-cassette-player' (default).                                                                                                     |
 | scaleMethod    | Optional: 'meet' (default) or 'slice'. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio) |
 
-All of the possible cassette player options can be found in the [demo implementation](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/demo.jsx).
+All of the possible cassette player options can be found in the [demo implementation](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/src/demo.jsx).
 
 ## Attribution
 

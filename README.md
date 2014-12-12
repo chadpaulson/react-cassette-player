@@ -12,7 +12,7 @@ npm install react-cassette-player
 
 ## Basic Usage
 
-```
+```javascript
 var React = require('react')
 var Cassette = require('react-cassette-player')
 

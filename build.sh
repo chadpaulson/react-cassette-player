@@ -1,2 +1,3 @@
-rm lib/cassette.js
-jsx src/cassette.jsx > lib/cassette.js
+rm cassette.js demo.js bundle.js
+jsx --extension jsx . .
+browserify demo.js -o bundle.js

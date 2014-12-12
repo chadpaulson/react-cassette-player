@@ -1,2 +1,2 @@
-rm cassette.js
-jsx cassette.jsx > cassette.js
+rm lib/cassette.js
+jsx src/cassette.jsx > lib/cassette.js

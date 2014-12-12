@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/chadpaulson/react-cassette-player/issues"
   },
-  "homepage": "https://github.com/chadpaulson/react-cassette-player"
+  "homepage": "https://github.com/chadpaulson/react-cassette-player",
+  "dependencies": {
+    "react": "^0.12.1"
+  }
 }

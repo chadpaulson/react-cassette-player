@@ -17,5 +17,9 @@ React.render(
   document.getElementById('nwa'))
 
 React.render(
+  <Cassette file="http://www.krecs.com/media/samples/sam_klp244_02_icreatein.mp3" cassetteColor="#F4F8FB" labelColor="#FFDD5E" tapeColor="#1B3E06" controlsColor="#1B3E06" containerClass="mds_broken_system" />,
+  document.getElementById('malaikat_dan_singa'))
+
+React.render(
   <Cassette file="http://www.krecs.com/media/samples/sam_klp029_11_pleasepleaseplease.mp3" cassetteColor="#FF662C" labelColor="#999" tapeColor="#61CBC7" controlsColor="#fff" containerClass="halo_benders_please" />,
   document.getElementById('halo_benders'))

@@ -26,6 +26,7 @@ React.render(<Cassette file={audioURI} />, document.body)
 |          |                                                                                                                                                  |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | file           | Required: URI of HTML5 audio resource you wish to play.                                                                                          |
+| mimeType       | Optional: `audio/mpeg` (default), `audio/ogg` or `audio/wav` string.                                                                             |
 | cassetteColor  | Optional: RGB or HEX string.                                                                                                                     |
 | labelColor     | Optional: RGB or HEX string.                                                                                                                     |
 | tapeColor      | Optional: RGB or HEX string.                                                                                                                     |

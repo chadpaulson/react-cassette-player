@@ -93,3 +93,6 @@ h1 {
 .mds_broken_system {
   background-color: #AE1A1A;
 }
+.rush_limelight, .mm_view, .nwa_express_yourself, .mds_broken_system, .halo_benders_please {
+  cursor:pointer;
+}

@@ -6,7 +6,7 @@ var React = require('react')
 var Cassette = React.createClass({
 
   propTypes: {
-    file: React.PropTypes.string.isRequired,
+    src: React.PropTypes.string.isRequired,
     mimeType: React.PropTypes.string,
     labelColor: React.PropTypes.string,
     tapeColor: React.PropTypes.string,
@@ -129,7 +129,7 @@ var Cassette = React.createClass({
     return (
       <div className={this.props.containerClass}>
         <audio ref="player" preload="auto">
-          <source src={this.props.file} type={this.props.mimeType} />
+          <source src={this.props.src} type={this.props.mimeType} />
         </audio>
         <svg onClick={this.togglePlayPause} x="0px" y="0px" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio={scaleMethod}>
           <g>

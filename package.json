@@ -1,6 +1,6 @@
 {
   "name": "react-cassette-player",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {
@@ -12,12 +12,19 @@
   },
   "keywords": [
     "react-component",
-    "reactjs",
+    "svg",
+    "html5 audio",
     "html5",
     "audio",
+    "mp3",
+    "ogg",
+    "wav",
+    "media",
     "player",
     "cassette",
-    "react"
+    "isomorphic",
+    "react",
+    "reactjs"    
   ],
   "author": "Chad Paulson <chad.paulson@gmail.com> (http://chadpaulson.com/)",
   "license": "GPLv2",

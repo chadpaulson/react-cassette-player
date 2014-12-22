@@ -24,7 +24,7 @@
     "cassette",
     "isomorphic",
     "react",
-    "reactjs"    
+    "reactjs"
   ],
   "author": "Chad Paulson <chad.paulson@gmail.com> (http://chadpaulson.com/)",
   "license": "GPLv2",
@@ -34,5 +34,10 @@
   "homepage": "https://github.com/chadpaulson/react-cassette-player",
   "dependencies": {
     "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-react": "^2.0.0"
   }
 }

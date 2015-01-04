@@ -13,6 +13,12 @@ body {
   color:#EBEFF0;
   font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;    
 }
+hr {
+  width:40%;
+  border-color: #999;
+  margin-top:65px;
+  margin-bottom:65px;
+}
 h1 {
   width:60%;
   text-align: center;

@@ -42,11 +42,5 @@
     "gulp-react": "^2.0.0",
     "jest-cli": "^0.2.1",
     "react-tools": "^0.12.2"
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/src/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "react"
-    ]
   }
 }

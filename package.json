@@ -4,7 +4,7 @@
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp jest --harmony"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,15 @@
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-clean": "^0.3.1",
-    "gulp-react": "^2.0.0"
+    "gulp-jest": "^0.3.0",
+    "gulp-react": "^2.0.0",
+    "jest-cli": "^0.2.1",
+    "react-tools": "^0.12.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/src/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
   }
 }

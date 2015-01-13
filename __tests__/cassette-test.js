@@ -34,7 +34,7 @@ describe('Cassette', function() {
       <CassetteComponent src={audio} cassetteColor='#7A8867' labelColor='#D0CAAA' tapeColor='#777' />
     );
     
-    // Verify the source audio and default settings
+    // Verify the source audio and custom settings
     var source = TestUtils.findRenderedDOMComponentWithTag(cassette, 'source');
     expect(source.getDOMNode().getAttribute('src')).toEqual(audio);
     expect(source.getDOMNode().getAttribute('type')).toEqual('audio/mpeg');

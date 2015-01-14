@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/crenwick/react-cassette-player.svg?branch=tests)](https://travis-ci.org/crenwick/react-cassette-player)
+
 # [react-cassette-player](https://chadpaulson.github.io/react-cassette-player)
 
 [![screenshot](https://github.com/chadpaulson/react-cassette-player/raw/gh-pages/img/screenshot.png)](https://chadpaulson.github.io/react-cassette-player)

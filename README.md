@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/crenwick/react-cassette-player.svg?branch=tests)](https://travis-ci.org/crenwick/react-cassette-player)
+[![Build Status](https://travis-ci.org/chadpaulson/react-cassette-player.svg?branch=tests)](https://travis-ci.org/chadpaulson/react-cassette-player)
 
 # [react-cassette-player](https://chadpaulson.github.io/react-cassette-player)
 

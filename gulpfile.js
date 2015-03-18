@@ -1,24 +1,23 @@
-'use strict'
+'use strict';
 
-var gulp = require('gulp')
-var clean = require('gulp-clean')
-var react = require('gulp-react')
-var jest = require('gulp-jest')
+var gulp = require('gulp');
+var plugins = require('gulp-load-plugins')();
+
 
 gulp.task('clean', function(done) {
   return gulp.src('lib/cassette.js',
-    {read:false}).pipe(clean())
-})
+    {read:false}).pipe(plugins.clean());
+});
 
 gulp.task('buildjs', ['clean'], function() {
-  return gulp.src('src/cassette.jsx').pipe(react()).pipe(gulp.dest('lib'))
+  return gulp.src('src/cassette.jsx').pipe(plugins.react()).pipe(gulp.dest('lib'));
 })
 
-gulp.task('default', ['buildjs'])
+gulp.task('default', ['buildjs']);
 
 // needs to be ran with the --harmony flag, which is included in the `npm test` script.
 gulp.task('jest', ['default'], function () {
-    return gulp.src('__tests__').pipe(jest({
+    return gulp.src('__tests__').pipe(plugins.jest({
       scriptPreprocessor: './support/preprocessor.js',
       unmockedModulePathPatterns: ['node_modules/react'],
       testPathIgnorePatterns: ['support'],

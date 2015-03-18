@@ -4,7 +4,8 @@
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {
-    "test": "gulp jest --harmony"
+    "test": "gulp jest --harmony",
+    "build": "gulp buildjs"
   },
   "repository": {
     "type": "git",

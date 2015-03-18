@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/chadpaulson/react-cassette-player.svg?branch=master)](https://travis-ci.org/chadpaulson/react-cassette-player)
-
 # [react-cassette-player](https://chadpaulson.github.io/react-cassette-player)
+
+[![Build Status](https://travis-ci.org/chadpaulson/react-cassette-player.svg?branch=master)](https://travis-ci.org/chadpaulson/react-cassette-player)
 
 [![screenshot](https://github.com/chadpaulson/react-cassette-player/raw/gh-pages/img/screenshot.png)](https://chadpaulson.github.io/react-cassette-player)
 

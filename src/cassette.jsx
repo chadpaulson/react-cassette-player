@@ -45,6 +45,19 @@ var Cassette = React.createClass({
     playerElement.addEventListener('pause', this.audioPause);
   },
 
+  componentWillReceiveProps: function(nextProps) {
+    if(this.props.src !== nextProps.src) {
+      this.audioPause();
+    }
+  },
+
+  componentDidUpdate: function(prevProps, prevState) {
+    if(prevProps.src !== this.props.src) {
+      this.audioLoad();
+      this.audioPlay();
+    }
+  },
+
   audioReady: function() {
     this.setState({
       canPlay: true
@@ -68,6 +81,16 @@ var Cassette = React.createClass({
     this.refs.player.getDOMNode().pause();
     this.setState({
       playing: false
+    });
+  },
+
+  audioLoad: function() {
+    this.refs.player.getDOMNode().load();
+    this.setState({
+      lt:7.6,
+      rt:0,
+      playing: false,
+      canPlay: false
     });
   },
 

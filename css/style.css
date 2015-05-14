@@ -1,5 +1,5 @@
 a {
-  color:#61CBC7;
+  color:#61dafb;
   font-weight: bold;
 }
 a:hover {
@@ -7,11 +7,11 @@ a:hover {
   color:#999;
 }
 body {
-  background-color: #999;
+  background-color: #2d2d2d;
   margin:0px;
   padding:0px;
   color:#EBEFF0;
-  font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;    
+  font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;
 }
 hr {
   width:40%;
@@ -41,10 +41,10 @@ h1 {
 .artist {
   bottom: 105px;
 }
-.rush_limelight {
+.rush-wrap {
   background-color: #999;
 }
-.mm_view {
+.mm-wrap {
   background-color: #ADBA8C;
 }
 .mm .song, .mm .artist {
@@ -69,7 +69,7 @@ h1 {
   margin-top: 45px !important;
   margin-bottom:40px !important;
 }
-.nwa_express_yourself {
+.nwa-wrap {
   background-color: #EBEFF0;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -90,15 +90,15 @@ h1 {
   padding-top:15%;
   background-color: #111;
 }
-.hb {
-  background-color: #EBEFF0;
-}
-.hb .song, .hb .artist {
-  color: #61CBC7;
-}
-.mds_broken_system {
+.mds-wrap {
   background-color: #AE1A1A;
 }
-.rush_limelight, .mm_view, .nwa_express_yourself, .mds_broken_system, .halo_benders_please {
+.shivas-wrap {
+  background-color: #BFEDEF;
+}
+.shv .song, .shv .artist {
+  color: #545C52;
+}
+.rush-wrap, .mm-wrap, .nwa-wrap, .mds-wrap, .shivas-wrap {
   cursor:pointer;
 }

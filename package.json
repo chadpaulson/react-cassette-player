@@ -1,11 +1,10 @@
 {
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
-    "browserify": "^7.0.3",
-    "gulp": "^3.8.10",
-    "gulp-clean": "^0.3.1",
-    "gulp-react": "^2.0.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.2",
-    "vinyl-source-stream": "^1.0.0"
+    "react": "^0.13.3",
+    "react-cassette-player": "^0.2.0",
+    "webpack": "^1.9.5"
   }
 }

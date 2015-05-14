@@ -1,7 +1,11 @@
 # [react-cassette-player](https://chadpaulson.github.io/react-cassette-player)
 
-[![screenshot](https://github.com/chadpaulson/react-cassette-player/raw/gh-pages/img/screenshot.png)](https://chadpaulson.github.io/react-cassette-player)
+> Simple React HTML5 audio player component built with SVG icons from The Noun Project.
 
-Demo @ https://chadpaulson.github.io/react-cassette-player
+## Run Demo Locally
+
+* `npm install`
+* `npm run build`
+* Open `index.html` in your favorite browser.
 
 Docs @ https://github.com/chadpaulson/react-cassette-player

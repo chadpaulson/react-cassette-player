@@ -34,15 +34,18 @@
   },
   "homepage": "https://github.com/chadpaulson/react-cassette-player",
   "dependencies": {
-    "react": "^0.12.1"
+    "react": "0.13.x"
+  },
+  "peerDependencies": {
+    "react": "0.13.x"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-clean": "^0.3.1",
-    "gulp-jest": "^0.3.0",
+    "gulp-jest": "^0.4.0",
     "gulp-load-plugins": "^0.8.1",
     "gulp-react": "^2.0.0",
-    "jest-cli": "^0.2.1",
-    "react-tools": "^0.12.2"
+    "jest-cli": "^0.4.3",
+    "react-tools": "0.13.x"
   }
 }

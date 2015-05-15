@@ -22,7 +22,7 @@ var audio = 'http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp
 React.render(<Cassette src={audio} />, document.body)
 ```
 
-## Options
+## Props
 
 |          |                                                                                                                                                  |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ React.render(<Cassette src={audio} />, document.body)
 | containerClass | Optional: `react-cassette-player` (default) string.                                                                                                     |
 | scaleMethod    | Optional: `meet` (default) or `slice` string. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio). |
 
-All options can be referenced in the [demo source](https://github.com/chadpaulson/react-cassette-player/blob/gh-pages/src/demo.jsx). Don't hesitate to [ask questions](https://github.com/chadpaulson/react-cassette-player/issues/new).
+All props can be referenced in the [demo source](https://github.com/chadpaulson/react-cassette-player/tree/gh-pages). Don't hesitate to [ask questions](https://github.com/chadpaulson/react-cassette-player/issues/new).
 
 ## Attribution
 

@@ -24,15 +24,16 @@ React.render(<Cassette src={audio} />, document.body)
 
 ## Props
 
-|          |                                                                                                                                                  |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| src            | Required: URI of HTML5 audio resource you wish to play.                                                                                          |
-| mimeType       | Optional: `audio/mpeg` (default), `audio/ogg` or `audio/wav` string.                                                                             |
-| cassetteColor  | Optional: RGB or HEX string.                                                                                                                     |
-| labelColor     | Optional: RGB or HEX string.                                                                                                                     |
-| tapeColor      | Optional: RGB or HEX string.                                                                                                                     |
-| controlsColor  | Optional: RGB or HEX string.                                                                                                                     |
-| containerClass | Optional: `react-cassette-player` (default) string.                                                                                                     |
+|                |                      |
+|----------------|----------------------|
+| src            | Required: URI of HTML5 audio resource you wish to play. |
+| preload        | Optional: `metadata` (default), `auto` or `none`. |
+| mimeType       | Optional: `audio/mpeg` (default), `audio/ogg` or `audio/wav` string. |
+| cassetteColor  | Optional: RGB or HEX string. |
+| labelColor     | Optional: RGB or HEX string. |
+| tapeColor      | Optional: RGB or HEX string. |
+| controlsColor  | Optional: RGB or HEX string. |
+| containerClass | Optional: `react-cassette-player` (default) string. |
 | scaleMethod    | Optional: `meet` (default) or `slice` string. See [preserveAspectRatio](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio). |
 
 All props can be referenced in the [demo source](https://github.com/chadpaulson/react-cassette-player/tree/gh-pages). Don't hesitate to [ask questions](https://github.com/chadpaulson/react-cassette-player/issues/new).

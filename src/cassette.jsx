@@ -7,6 +7,7 @@ var Cassette = React.createClass({
 
   propTypes: {
     src: React.PropTypes.string.isRequired,
+    preload: React.PropTypes.string,
     mimeType: React.PropTypes.string,
     labelColor: React.PropTypes.string,
     tapeColor: React.PropTypes.string,
@@ -18,6 +19,7 @@ var Cassette = React.createClass({
 
   getDefaultProps: function() {
     return {
+      preload: 'metadata',
       mimeType: 'audio/mpeg',
       labelColor: '#fff',
       tapeColor: '#333',
@@ -39,7 +41,11 @@ var Cassette = React.createClass({
 
   componentDidMount: function() {
     var playerElement = this.refs.player.getDOMNode();
-    playerElement.addEventListener('canplay', this.audioReady);
+    if(this.props.preload === 'none') {
+      this.audioReady();
+    } else {
+      playerElement.addEventListener('canplay', this.audioReady);
+    }
     playerElement.addEventListener('ended', this.audioEnded);
     playerElement.addEventListener('timeupdate', this.audioUpdate);
     playerElement.addEventListener('pause', this.audioPause);
@@ -151,7 +157,7 @@ var Cassette = React.createClass({
     }
     return (
       <div className={this.props.containerClass}>
-        <audio ref="player" preload="auto">
+        <audio ref="player" preload={this.props.preload}>
           <source src={this.props.src} type={this.props.mimeType} />
         </audio>
         <svg onClick={this.togglePlayPause} x="0px" y="0px" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio={scaleMethod}>

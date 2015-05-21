@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "react": "^0.13.3",
-    "react-cassette-player": "^0.2.0",
+    "react-cassette-player": "^0.2.2",
     "webpack": "^1.9.5"
   }
 }

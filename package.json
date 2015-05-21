@@ -1,6 +1,6 @@
 {
   "name": "react-cassette-player",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {

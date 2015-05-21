@@ -102,3 +102,16 @@ h1 {
 .rush-wrap, .mm-wrap, .nwa-wrap, .mds-wrap, .shivas-wrap {
   cursor:pointer;
 }
+@media (max-width: 600px) {
+  .track_info {
+    width: 330px;
+    font-size: 1.6em;
+  }
+  .nwa-wrap {
+    width: 330px;
+  }
+  .song, .artist {
+    font-size: 1.4em;
+    padding-left: 5%;
+  }
+}

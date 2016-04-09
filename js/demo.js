@@ -4,6 +4,14 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Cassette = require('react-cassette-player');
 
+ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/1447012231831/03%20-%20Quasi%20-%20The%20Skeleton.mp3',
+          preload: 'none',
+          cassetteColor: '#92caa3',
+          labelColor: '#e4faed',
+          tapeColor: '#ffeb58',
+          controlsColor: '#e4faed',
+          containerClass: 'quasi-wrap' }), document.getElementById('quasi'));
+
 ReactDOM.render(React.createElement(Cassette, { src: 'http://krecs.com/media/KLP252/11UsedToBeingCool.mp3',
           preload: 'none',
           cassetteColor: '#1F5673',

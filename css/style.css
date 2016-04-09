@@ -94,13 +94,19 @@ h1 {
 .mds-wrap {
   background-color: #AE1A1A;
 }
+.quasi-wrap {
+  background-color: #3e3526;
+}
+.qsi .song, .qsi .artist {
+  color: #e4faed;
+}
 .shivas-wrap {
   background-color: #BFEDEF;
 }
 .shv .song, .shv .artist {
   color: #545C52;
 }
-.rush-wrap, .mm-wrap, .nwa-wrap, .mds-wrap, .shivas-wrap {
+.rush-wrap, .mm-wrap, .nwa-wrap, .mds-wrap, .shivas-wrap, .quasi-wrap {
   cursor:pointer;
 }
 @media (max-width: 600px) {

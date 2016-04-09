@@ -12,6 +12,12 @@ module.exports = {
 		path: path.join(__dirname, "js"),
 		filename: "build.min.js"
 	},
+	resolve: {
+    alias: {
+      "react": path.join(__dirname, "node_modules", "react")
+    },
+    extensions: ["", ".js"]
+  },
 	plugins: [
 		new webpack.DefinePlugin({"process.env": {NODE_ENV: JSON.stringify("production")}}),
 		new webpack.optimize.DedupePlugin(),

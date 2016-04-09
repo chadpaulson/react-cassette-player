@@ -40,7 +40,7 @@ var Cassette = React.createClass({
   },
 
   componentDidMount: function() {
-    var playerElement = this.refs.player.getDOMNode();
+    var playerElement = this.refs.player;
     if(this.props.preload === 'none') {
       this.audioReady();
     } else {
@@ -77,21 +77,21 @@ var Cassette = React.createClass({
         audioElements[i].pause();
       }
     } catch(e) {}
-    this.refs.player.getDOMNode().play();
+    this.refs.player.play();
     this.setState({
       playing: true
     });
   },
 
   audioPause: function() {
-    this.refs.player.getDOMNode().pause();
+    this.refs.player.pause();
     this.setState({
       playing: false
     });
   },
 
   audioLoad: function() {
-    this.refs.player.getDOMNode().load();
+    this.refs.player.load();
     this.setState({
       lt:7.6,
       rt:0,
@@ -101,7 +101,7 @@ var Cassette = React.createClass({
   },
 
   audioUpdate: function() {
-    var playerElement = this.refs.player.getDOMNode();
+    var playerElement = this.refs.player;
     var rt = playerElement.currentTime / playerElement.duration;
     var tapeLeft = 7.6 * (1 - rt);
     var tapeRight = 7.6 - tapeLeft;

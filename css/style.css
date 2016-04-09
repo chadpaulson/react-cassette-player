@@ -4,7 +4,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color:#999;
+  color:#CC7A6F;
 }
 body {
   background-color: #2d2d2d;
@@ -24,6 +24,7 @@ h1 {
   text-align: center;
   margin:0px auto;
   padding-bottom:55px;
+  padding-top: 55px;
 }
 .demo {
   width:100% !important;

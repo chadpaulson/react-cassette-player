@@ -1,6 +1,6 @@
 {
   "name": "react-cassette-player",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {
@@ -38,14 +38,14 @@
   },
   "homepage": "https://github.com/chadpaulson/react-cassette-player",
   "peerDependencies": {
-    "react": "~0.14.0"
+    "react": "^15.0.0"
   },
   "devDependencies": {
     "babel-jest": "~6.0.1",
     "babel-cli": "*",
     "babel-preset-react": "*",
     "jest-cli": "~0.4.0",
-    "react-addons-test-utils": "~0.14.0"
+    "react-addons-test-utils": "^15.0.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",

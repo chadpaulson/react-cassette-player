@@ -1,11 +1,12 @@
 {
   "name": "react-cassette-player",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Simple ReactJS HTML5 audio player component built with SVG icons from The Noun Project.",
   "main": "lib/cassette.js",
   "scripts": {
-    "test": "gulp jest --harmony",
-    "build": "gulp buildjs"
+    "test": "jest",
+    "build": "babel src/cassette.jsx -o lib/cassette.js",
+    "pretest": "npm run-script build"
   },
   "engines": {
     "node": ">=0.10.33"
@@ -36,19 +37,19 @@
     "url": "https://github.com/chadpaulson/react-cassette-player/issues"
   },
   "homepage": "https://github.com/chadpaulson/react-cassette-player",
-  "dependencies": {
-    "react": "0.13.x"
-  },
   "peerDependencies": {
-    "react": "0.13.x"
+    "react": "~0.14.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-clean": "^0.3.1",
-    "gulp-jest": "^0.4.0",
-    "gulp-load-plugins": "^0.8.1",
-    "gulp-react": "^2.0.0",
-    "jest-cli": "^0.4.3",
-    "react-tools": "0.13.x"
+    "babel-jest": "~6.0.1",
+    "babel-cli": "*",
+    "babel-preset-react": "*",
+    "jest-cli": "~0.4.0",
+    "react-addons-test-utils": "~0.14.0"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"]
   }
 }

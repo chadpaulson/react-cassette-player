@@ -1,10 +1,12 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "babel src/demo.jsx -o js/demo.js && webpack"
   },
   "devDependencies": {
-    "react": "^0.13.3",
-    "react-cassette-player": "^0.2.2",
+    "babel-cli": "*",
+    "babel-preset-react": "*",
+    "react-dom": "~0.14.0",
+    "react-cassette-player": "0.3.0",
     "webpack": "^1.9.5"
   }
 }

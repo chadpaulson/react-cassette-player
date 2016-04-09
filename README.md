@@ -16,10 +16,11 @@ npm install react-cassette-player
 
 ```javascript
 var React = require('react')
+var ReactDOM = require('react-dom')
 var Cassette = require('react-cassette-player')
 
 var audio = 'http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp3'
-React.render(<Cassette src={audio} />, document.body)
+ReactDOM.render(<Cassette src={audio} />, document.body)
 ```
 
 ## Props

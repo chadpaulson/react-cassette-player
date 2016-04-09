@@ -5,8 +5,9 @@
   "devDependencies": {
     "babel-cli": "*",
     "babel-preset-react": "*",
-    "react-dom": "~0.14.0",
-    "react-cassette-player": "0.3.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-cassette-player": "^1.1.0",
     "webpack": "^1.9.5"
   }
 }

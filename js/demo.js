@@ -4,6 +4,22 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Cassette = require('react-cassette-player');
 
+ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/06%20L.A..mp3',
+          preload: 'none',
+          cassetteColor: '#071c21',
+          tapeColor: '#a40c0b',
+          labelColor: '#929d99',
+          controlsColor: '#fff',
+          containerClass: 'es-wrap' }), document.getElementById('elliott_smith'));
+
+ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/1400009829488/03%20Bad%20Day.mp3',
+          preload: 'none',
+          cassetteColor: '#7fbed0',
+          labelColor: '#fff',
+          tapeColor: '#7fbed0',
+          controlsColor: '#fff',
+          containerClass: 'rem-wrap' }), document.getElementById('rem'));
+
 ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/1447012231831/03%20-%20Quasi%20-%20The%20Skeleton.mp3',
           preload: 'none',
           cassetteColor: '#92caa3',
@@ -11,14 +27,6 @@ ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com
           tapeColor: '#ffeb58',
           controlsColor: '#e4faed',
           containerClass: 'quasi-wrap' }), document.getElementById('quasi'));
-
-ReactDOM.render(React.createElement(Cassette, { src: 'http://krecs.com/media/KLP252/11UsedToBeingCool.mp3',
-          preload: 'none',
-          cassetteColor: '#1F5673',
-          labelColor: '#fff',
-          tapeColor: '#CC7A6F',
-          controlsColor: '#fff',
-          containerClass: 'shivas-wrap' }), document.getElementById('shivas'));
 
 ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/1391651203164/04%20Limelight.mp3',
           preload: 'none',
@@ -43,11 +51,3 @@ ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com
           tapeColor: '#CA0226',
           controlsColor: '#CA0226',
           containerClass: 'nwa-wrap' }), document.getElementById('nwa'));
-
-ReactDOM.render(React.createElement(Cassette, { src: 'http://www.krecs.com/media/samples/sam_klp244_02_icreatein.mp3',
-          preload: 'none',
-          cassetteColor: '#F4F8FB',
-          labelColor: '#FFDD5E',
-          tapeColor: '#1B3E06',
-          controlsColor: '#1B3E06',
-          containerClass: 'mds-wrap' }), document.getElementById('malaikat_dan_singa'));

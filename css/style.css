@@ -91,8 +91,8 @@ h1 {
   padding-top:15%;
   background-color: #111;
 }
-.mds-wrap {
-  background-color: #AE1A1A;
+.rem-wrap {
+  background-color: #000113;
 }
 .quasi-wrap {
   background-color: #3e3526;
@@ -100,13 +100,14 @@ h1 {
 .qsi .song, .qsi .artist {
   color: #e4faed;
 }
-.shivas-wrap {
-  background-color: #BFEDEF;
+
+.es-wrap {
+  background-color: #fff;
 }
-.shv .song, .shv .artist {
+.es .song, .es .artist {
   color: #545C52;
 }
-.rush-wrap, .mm-wrap, .nwa-wrap, .mds-wrap, .shivas-wrap, .quasi-wrap {
+.rush-wrap, .mm-wrap, .nwa-wrap, .rem-wrap, .es-wrap, .quasi-wrap {
   cursor:pointer;
 }
 @media (max-width: 600px) {

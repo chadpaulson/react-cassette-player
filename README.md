@@ -1,10 +1,10 @@
-# [react-cassette-player](https://chadpaulson.github.io/react-cassette-player)
+# [react-cassette-player](https://chadpaulson.github.io/react-cassette-player/)
 
 [![Build Status](https://travis-ci.org/chadpaulson/react-cassette-player.svg?branch=master)](https://travis-ci.org/chadpaulson/react-cassette-player)
 
-[![screenshot](https://github.com/chadpaulson/react-cassette-player/raw/gh-pages/img/screenshot.png)](https://chadpaulson.github.io/react-cassette-player)
+[![screenshot](https://github.com/chadpaulson/react-cassette-player/raw/gh-pages/img/screenshot.png)](https://chadpaulson.github.io/react-cassette-player/)
 
-Demo @ https://chadpaulson.github.io/react-cassette-player
+Demo @ https://chadpaulson.github.io/react-cassette-player/
 
 ## Install
 
@@ -19,7 +19,7 @@ var React = require('react')
 var ReactDOM = require('react-dom')
 var Cassette = require('react-cassette-player')
 
-var audio = 'http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp3'
+var audio = 'http://static.echonest.com/audio2/01%20-%20Virginia%20Reel%20Around%20The%20Fountain.mp3'
 ReactDOM.render(<Cassette src={audio} />, document.body)
 ```
 
@@ -46,11 +46,10 @@ SVG icons used by react-cassette-player are licensed [Creative Commons (CC BY 3.
   > [Play](http://thenounproject.com/term/play/15109/) icon designed by [Björn Andersson](http://thenounproject.com/bjorna1/) from the Noun Project.
   > [Cassette](http://thenounproject.com/term/cassette/37972/) icon designed by [Daniel Llamas Soto](http://thenounproject.com/yamasoto/) from the Noun Project.
 
+## Music
+
+[Demo audio](https://chadpaulson.github.io/react-cassette-player/) courtesy of [Echo Nest Labs](http://static.echonest.com/labs/).
 
 ## Motivation
 
 Desire to build a functional [Noun](http://thenounproject.com) while experimenting with React SVG support. [Feedback and contributions](https://github.com/chadpaulson/react-cassette-player/issues/new) are welcome.
-
-## Music
-
-Courtesy of [Echo Nest Labs](http://static.echonest.com/labs/) and [K Records](http://krecs.com).

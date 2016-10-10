@@ -21,8 +21,8 @@ var Cassette = React.createClass({
     return {
       preload: 'metadata',
       mimeType: 'audio/mpeg',
-      labelColor: '#fff',
-      tapeColor: '#333',
+      labelColor: '#3d9ee2',
+      tapeColor: '#191308',
       cassetteColor: '#333',
       controlsColor: '#999',
       containerClass: 'react-cassette-player',

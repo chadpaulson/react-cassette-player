@@ -9,7 +9,7 @@ describe('Cassette', function() {
     React = require('react');
     TestUtils = require('react-addons-test-utils');
     CassetteComponent = require('../lib/cassette');
-    audio = 'http://www.krecs.com/media/samples/sam_klp002_07_crashingthrough.mp3';
+    audio = 'http://static.echonest.com/audio2/Advisory_Committee.mp3';
   });
 
   it('renders a default cassette', function() {
@@ -22,8 +22,8 @@ describe('Cassette', function() {
     expect(source.getAttribute('type')).toEqual('audio/mpeg');
     // Verify SVG attributes
     var svg = TestUtils.findRenderedDOMComponentWithTag(cassette, 'svg');
-    expect(svg.children[0].children[1].getAttribute('fill')).toEqual('#fff');
-    expect(svg.children[1].lastChild.getAttribute('fill')).toEqual('#333');
+    expect(svg.children[0].children[1].getAttribute('fill')).toEqual('#3d9ee2');
+    expect(svg.children[1].lastChild.getAttribute('fill')).toEqual('#191308');
   });
   
   it('renders a custom cassette', function() {

@@ -41,10 +41,10 @@
     "react": "^15.0.0"
   },
   "devDependencies": {
-    "babel-jest": "*",
-    "babel-cli": "*",
-    "babel-preset-react": "*",
-    "jest-cli": "*",
+    "babel-jest": "^10.0.1",
+    "babel-cli": "^6.7.5",
+    "babel-preset-react": "^6.5.0",
+    "jest-cli": "^0.10.0",
     "react": "^15.0.0",
     "react-addons-test-utils": "^15.0.0"
   },

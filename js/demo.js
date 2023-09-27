@@ -4,7 +4,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Cassette = require('react-cassette-player');
 
-ReactDOM.render(React.createElement(Cassette, { src: 'http://static.echonest.com/audio2/06%20L.A..mp3',
+ReactDOM.render(React.createElement(Cassette, { src: 'https://wavves.s3.amazonaws.com/bigman.mp3',
           preload: 'none',
           cassetteColor: '#071c21',
           tapeColor: '#a40c0b',

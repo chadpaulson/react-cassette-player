@@ -19,7 +19,7 @@ var React = require('react')
 var ReactDOM = require('react-dom')
 var Cassette = require('react-cassette-player')
 
-var audio = 'http://static.echonest.com/audio2/01%20-%20Virginia%20Reel%20Around%20The%20Fountain.mp3'
+var audio = 'https://wavves.s3.amazonaws.com/la.mp3'
 ReactDOM.render(<Cassette src={audio} />, document.body)
 ```
 
